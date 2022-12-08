@@ -18,13 +18,13 @@ const SingleComicPage = () => {
         updateComic()
     }, [comicId])
 
-    const updateChar = () => {
+    const updateComic = () => {
         clearError()
         getComics(comicId)
             .then(onComicLoaded)
     }
 
-    const onCharLoaded = (comic) => {
+    const onComicLoaded = (comic) => {
         setComic(comic)
     }
 
