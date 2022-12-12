@@ -5,7 +5,6 @@ import ErrorMessage from '../errorMessage/ErrorMessage'
 import useMarvelService from '../../services/MarvelService'
 
 import './charList.scss';
-import abyss from '../../resources/img/abyss.jpg'
 
 const CharList = (props) => {
 
